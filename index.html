@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026 Winter Olympics Hub - Milan Cortina Games Guide</title>
+<meta name="description" content="Your complete guide to the 2026 Winter Olympics in Milan-Cortina. Schedule, athletes, hockey predictions, gear reviews, and live updates.">
+<meta name="keywords" content="2026 Winter Olympics, Milan Cortina 2026, Olympic hockey, winter sports 2026, Olympic schedule">
+<link rel="canonical" href="https://technologicsingularity.github.io/sports-olympics-hub/">
+<style>
+  :root{--red:#c0392b;--blue:#1a3a6b;--gold:#f5a623;--light:#f8f9fa;--dark:#212529}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',sans-serif;color:var(--dark);line-height:1.6}
+  header{background:var(--blue);color:#fff;padding:1rem 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(0,0,0,.3)}
+  .container{max-width:1100px;margin:0 auto;padding:0 1.5rem}
+  nav{display:flex;justify-content:space-between;align-items:center}
+  .logo{font-size:1.4rem;font-weight:700;color:#fff;text-decoration:none}
+  .logo span{color:var(--gold)}
+  nav ul{list-style:none;display:flex;gap:1.5rem}
+  nav a{color:#fff;text-decoration:none;font-weight:500;font-size:.95rem}
+  nav a:hover{color:var(--gold)}
+  .hero{background:linear-gradient(135deg,#1a3a6b 0%,#c0392b 100%);color:#fff;padding:5rem 0;text-align:center;position:relative;overflow:hidden}
+  .hero::before{content:'❄️';position:absolute;font-size:15rem;opacity:.05;top:-2rem;right:-2rem}
+  .hero h1{font-size:2.8rem;margin-bottom:1rem;line-height:1.2}
+  .hero p{font-size:1.2rem;margin-bottom:2rem;opacity:.9;max-width:650px;margin-left:auto;margin-right:auto}
+  .countdown{display:flex;gap:1.5rem;justify-content:center;margin:2rem 0}
+  .count-box{background:rgba(255,255,255,.15);border-radius:12px;padding:1rem 1.5rem;text-align:center;backdrop-filter:blur(10px)}
+  .count-num{font-size:2.5rem;font-weight:700;display:block}
+  .count-label{font-size:.8rem;opacity:.8;text-transform:uppercase}
+  .btn{display:inline-block;padding:.8rem 2rem;border-radius:50px;font-weight:700;text-decoration:none;transition:.3s}
+  .btn-gold{background:var(--gold);color:var(--blue)}
+  .btn-gold:hover{background:#e09400;transform:translateY(-2px)}
+  .section{padding:4rem 0}
+  .section-alt{background:var(--light)}
+  h2{font-size:2rem;color:var(--blue);margin-bottom:.5rem}
+  .subtitle{color:#666;margin-bottom:2rem}
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+  .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem}
+  .card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 3px 15px rgba(0,0,0,.08);transition:.3s}
+  .card:hover{transform:translateY(-4px);box-shadow:0 8px 25px rgba(0,0,0,.15)}
+  .card-img{height:180px;display:flex;align-items:center;justify-content:center;font-size:4rem}
+  .card-body{padding:1.5rem}
+  .card-body h3{color:var(--blue);margin-bottom:.5rem}
+  .card-body p{color:#555;font-size:.95rem}
+  .tag{display:inline-block;padding:.2rem .7rem;border-radius:20px;font-size:.75rem;font-weight:700;margin-bottom:.5rem}
+  .tag-red{background:#fde8e8;color:var(--red)}
+  .tag-blue{background:#e8eef8;color:var(--blue)}
+  .tag-gold{background:#fef3e2;color:#b7791f}
+  .sport-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:2rem}
+  .sport-card{background:#fff;border-radius:12px;padding:1.5rem;text-align:center;box-shadow:0 3px 10px rgba(0,0,0,.08);cursor:pointer;transition:.3s;text-decoration:none;color:inherit}
+  .sport-card:hover{background:var(--blue);color:#fff;transform:translateY(-3px)}
+  .sport-card:hover .sport-name{color:#fff}
+  .sport-icon{font-size:2.5rem;margin-bottom:.5rem}
+  .sport-name{font-weight:600;color:var(--blue);font-size:.95rem}
+  .medal-table{width:100%;border-collapse:collapse;margin-top:1.5rem}
+  .medal-table th{background:var(--blue);color:#fff;padding:.8rem 1rem;text-align:left}
+  .medal-table td{padding:.8rem 1rem;border-bottom:1px solid #eee}
+  .medal-table tr:hover td{background:#f0f4ff}
+  .gold-medal{color:#f5a623;font-weight:700}
+  .silver-medal{color:#aaa;font-weight:700}
+  .bronze-medal{color:#cd7f32;font-weight:700}
+  .affiliate-box{background:linear-gradient(135deg,var(--blue),#2d6abf);color:#fff;border-radius:16px;padding:2.5rem;margin:2rem 0;display:flex;align-items:center;gap:2rem}
+  .affiliate-box h3{font-size:1.5rem;margin-bottom:.5rem}
+  .affiliate-box p{opacity:.9;margin-bottom:1rem}
+  .schedule-grid{display:grid;gap:1rem;margin-top:1.5rem}
+  .schedule-item{background:#fff;border-radius:8px;padding:1.2rem 1.5rem;display:flex;align-items:center;gap:1.5rem;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+  .schedule-date{background:var(--blue);color:#fff;border-radius:8px;padding:.5rem 1rem;text-align:center;min-width:80px}
+  .schedule-date .month{font-size:.75rem;text-transform:uppercase}
+  .schedule-date .day{font-size:1.8rem;font-weight:700;line-height:1}
+  .schedule-info h4{color:var(--blue);margin-bottom:.2rem}
+  .schedule-info p{color:#666;font-size:.9rem}
+  footer{background:var(--dark);color:#aaa;padding:2rem 0;text-align:center}
+  footer a{color:var(--gold);text-decoration:none}
+  @media(max-width:768px){
+    .grid-3,.grid-2,.sport-grid{grid-template-columns:1fr}
+    .hero h1{font-size:2rem}
+    .countdown{flex-wrap:wrap}
+    .affiliate-box{flex-direction:column}
+    nav ul{display:none}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <a href="/" class="logo">🏔️ Olympics<span>2026</span></a>
+      <ul>
+        <li><a href="#sports">Sports</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#gear">Gear</a></li>
+        <li><a href="#predictions">Predictions</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>2026 Winter Olympics<br>Milan-Cortina, Italy 🇮🇹</h1>
+    <p>Your ultimate guide to the XXVI Olympic Winter Games. Schedules, athlete spotlights, gear reviews, and expert predictions.</p>
+    <div class="countdown">
+      <div class="count-box"><span class="count-num" id="days">--</span><span class="count-label">Days</span></div>
+      <div class="count-box"><span class="count-num" id="hours">--</span><span class="count-label">Hours</span></div>
+      <div class="count-box"><span class="count-num" id="mins">--</span><span class="count-label">Minutes</span></div>
+    </div>
+    <a href="#schedule" class="btn btn-gold">📅 View Full Schedule</a>
+  </div>
+</section>
+
+<section class="section" id="sports">
+  <div class="container">
+    <h2>Olympic Sports Guide</h2>
+    <p class="subtitle">Everything you need to know about the 2026 Winter Olympic sports</p>
+    <div class="sport-grid">
+      <a href="#hockey" class="sport-card"><div class="sport-icon">🏒</div><div class="sport-name">Ice Hockey</div></a>
+      <a href="#skiing" class="sport-card"><div class="sport-icon">⛷️</div><div class="sport-name">Alpine Skiing</div></a>
+      <a href="#skating" class="sport-card"><div class="sport-icon">⛸️</div><div class="sport-name">Figure Skating</div></a>
+      <a href="#biathlon" class="sport-card"><div class="sport-icon">🎿</div><div class="sport-name">Biathlon</div></a>
+      <a href="#bobsled" class="sport-card"><div class="sport-icon">🛷</div><div class="sport-name">Bobsled</div></a>
+      <a href="#curling" class="sport-card"><div class="sport-icon">🥌</div><div class="sport-name">Curling</div></a>
+      <a href="#snowboard" class="sport-card"><div class="sport-icon">🏂</div><div class="sport-name">Snowboard</div></a>
+      <a href="#luge" class="sport-card"><div class="sport-icon">🛷</div><div class="sport-name">Luge</div></a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="hockey">
+  <div class="container">
+    <h2>🏒 Ice Hockey 2026 Preview</h2>
+    <p class="subtitle">The most anticipated event of the Winter Olympics returns with NHL players</p>
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-img" style="background:linear-gradient(135deg,#c0392b,#e74c3c)">🇨🇦</div>
+        <div class="card-body">
+          <span class="tag tag-gold">🥇 Gold Favorite</span>
+          <h3>Canada</h3>
+          <p>Defending their Olympic legacy with a star-studded NHL roster. Connor McDavid leads the charge for gold in Milan.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img" style="background:linear-gradient(135deg,#1a3a6b,#2980b9)">🇺🇸</div>
+        <div class="card-body">
+          <span class="tag tag-blue">🥈 Silver Contender</span>
+          <h3>United States</h3>
+          <p>A young, hungry American squad with elite NHL talent looking to end Canada's dominance on the Olympic stage.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img" style="background:linear-gradient(135deg,#27ae60,#2ecc71)">🇸🇪</div>
+        <div class="card-body">
+          <span class="tag tag-blue">Strong Contender</span>
+          <h3>Sweden</h3>
+          <p>Sweden's deep defensive corps and goaltending make them a perennial threat for Olympic hardware.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img" style="background:linear-gradient(135deg,#f39c12,#f5a623)">🇫🇮</div>
+        <div class="card-body">
+          <span class="tag tag-gold">Defending Champion</span>
+          <h3>Finland</h3>
+          <p>The reigning Olympic champions from Beijing 2022 return to defend their gold medal with a veteran squad.</p>
+        </div>
+      </div>
+    </div>
+    <div class="affiliate-box" style="margin-top:2rem">
+      <div style="font-size:3rem">🏒</div>
+      <div>
+        <h3>Shop Official Olympic Hockey Gear</h3>
+        <p>Get authentic team jerseys, sticks, and fan merchandise for the 2026 Winter Olympics.</p>
+        <a href="https://www.amazon.com/s?k=2026+winter+olympics+hockey+gear&tag=yourtag-20" target="_blank" rel="noopener" class="btn btn-gold">Shop on Amazon →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="schedule">
+  <div class="container">
+    <h2>📅 Key Events Schedule</h2>
+    <p class="subtitle">Mark your calendar for the biggest moments of Milan-Cortina 2026</p>
+    <div class="schedule-grid">
+      <div class="schedule-item">
+        <div class="schedule-date"><div class="month">Feb</div><div class="day">6</div></div>
+        <div class="schedule-info"><h4>Opening Ceremony</h4><p>Piazza del Duomo, Milan — The spectacular opening of the XXVI Winter Games</p></div>
+      </div>
+      <div class="schedule-item">
+        <div class="schedule-date"><div class="month">Feb</div><div class="day">7</div></div>
+        <div class="schedule-info"><h4>Alpine Skiing Begins</h4><p>Cortina d'Ampezzo — Men's and Women's Downhill training runs</p></div>
+      </div>
+      <div class="schedule-item">
+        <div class="schedule-date"><div class="month">Feb</div><div class="day">11</div></div>
+        <div class="schedule-info"><h4>Ice Hockey Group Stage</h4><p>Mediolanum Forum — Men's tournament group stage begins</p></div>
+      </div>
+      <div class="schedule-item">
+        <div class="schedule-date"><div class="month">Feb</div><div class="day">14</div></div>
+        <div class="schedule-info"><h4>Figure Skating — Pairs</h4><p>Mediolanum Forum — Short program and free skate competition</p></div>
+      </div>
+      <div class="schedule-item">
+        <div class="schedule-date"><div class="month">Feb</div><div class="day">18</div></div>
+        <div class="schedule-info"><h4>Snowboard Halfpipe Finals</h4><p>Livigno — Men's and Women's halfpipe gold medal events</p></div>
+      </div>
+      <div class="schedule-item">
+        <div class="schedule-date"><div class="month">Feb</div><div class="day">22</div></div>
+        <div class="schedule-info"><h4>Ice Hockey Gold Medal Game</h4><p>Mediolanum Forum — Men's gold medal final</p></div>
+      </div>
+      <div class="schedule-item">
+        <div class="schedule-date"><div class="month">Feb</div><div class="day">22</div></div>
+        <div class="schedule-info"><h4>Closing Ceremony</h4><p>Verona Arena — Closing of the XXVI Olympic Winter Games</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="gear">
+  <div class="container">
+    <h2>🎿 Top Olympic Gear Picks</h2>
+    <p class="subtitle">Gear used by Olympic athletes — available for fans and enthusiasts</p>
+    <div class="grid-3">
+      <div class="card">
+        <div class="card-img" style="background:#e8f4fd;font-size:3.5rem">⛷️</div>
+        <div class="card-body">
+          <span class="tag tag-blue">Alpine Skiing</span>
+          <h3>Atomic Redster Skis</h3>
+          <p>World Cup-level performance skis used by Olympic champions. Available in multiple disciplines.</p>
+          <a href="https://www.amazon.com/s?k=atomic+redster+skis&tag=yourtag-20" target="_blank" rel="noopener" class="btn btn-gold" style="margin-top:1rem;display:inline-block">View on Amazon</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img" style="background:#fef3e2;font-size:3.5rem">🏒</div>
+        <div class="card-body">
+          <span class="tag tag-gold">Ice Hockey</span>
+          <h3>Bauer Supreme Stick</h3>
+          <p>The stick of choice for NHL stars competing in the Olympics. Pro-grade performance.</p>
+          <a href="https://www.amazon.com/s?k=bauer+supreme+hockey+stick&tag=yourtag-20" target="_blank" rel="noopener" class="btn btn-gold" style="margin-top:1rem;display:inline-block">View on Amazon</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img" style="background:#fde8e8;font-size:3.5rem">⛸️</div>
+        <div class="card-body">
+          <span class="tag tag-red">Figure Skating</span>
+          <h3>Jackson Ultima Skates</h3>
+          <p>Competition-grade figure skates trusted by Olympic-level skaters worldwide.</p>
+          <a href="https://www.amazon.com/s?k=jackson+ultima+figure+skates&tag=yourtag-20" target="_blank" rel="noopener" class="btn btn-gold" style="margin-top:1rem;display:inline-block">View on Amazon</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="predictions">
+  <div class="container">
+    <h2>🥇 Medal Predictions</h2>
+    <p class="subtitle">Our expert predictions for the 2026 Winter Olympics medal table</p>
+    <table class="medal-table">
+      <thead><tr><th>#</th><th>Country</th><th class="gold-medal">🥇 Gold</th><th class="silver-medal">🥈 Silver</th><th class="bronze-medal">🥉 Bronze</th><th>Total</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>🇳🇴 Norway</td><td class="gold-medal">16</td><td class="silver-medal">12</td><td class="bronze-medal">10</td><td><strong>38</strong></td></tr>
+        <tr><td>2</td><td>🇩🇪 Germany</td><td class="gold-medal">13</td><td class="silver-medal">10</td><td class="bronze-medal">9</td><td><strong>32</strong></td></tr>
+        <tr><td>3</td><td>🇺🇸 United States</td><td class="gold-medal">11</td><td class="silver-medal">11</td><td class="bronze-medal">12</td><td><strong>34</strong></td></tr>
+        <tr><td>4</td><td>🇨🇦 Canada</td><td class="gold-medal">10</td><td class="silver-medal">8</td><td class="bronze-medal">9</td><td><strong>27</strong></td></tr>
+        <tr><td>5</td><td>🇸🇪 Sweden</td><td class="gold-medal">8</td><td class="silver-medal">7</td><td class="bronze-medal">8</td><td><strong>23</strong></td></tr>
+        <tr><td>6</td><td>🇨🇭 Switzerland</td><td class="gold-medal">7</td><td class="silver-medal">9</td><td class="bronze-medal">6</td><td><strong>22</strong></td></tr>
+        <tr><td>7</td><td>🇦🇹 Austria</td><td class="gold-medal">6</td><td class="silver-medal">7</td><td class="bronze-medal">8</td><td><strong>21</strong></td></tr>
+        <tr><td>8</td><td>🇮🇹 Italy (Host)</td><td class="gold-medal">5</td><td class="silver-medal">8</td><td class="bronze-medal">10</td><td><strong>23</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 Olympics Hub | Fan site — not affiliated with IOC or Milan-Cortina 2026 | <a href="https://www.olympics.com" target="_blank">Official Olympics Site</a> | Contains affiliate links</p>
+  </div>
+</footer>
+
+<script>
+// Countdown to Feb 6, 2026
+const target = new Date('2026-02-06T20:00:00');
+function updateCountdown(){
+  const now = new Date();
+  const diff = target - now;
+  if(diff <= 0){document.getElementById('days').textContent='0';return;}
+  const d = Math.floor(diff/86400000);
+  const h = Math.floor((diff%86400000)/3600000);
+  const m = Math.floor((diff%3600000)/60000);
+  document.getElementById('days').textContent=d;
+  document.getElementById('hours').textContent=h;
+  document.getElementById('mins').textContent=m;
+}
+updateCountdown();
+setInterval(updateCountdown,60000);
+</script>
+</body>
+</html>
